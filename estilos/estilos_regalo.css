@@ -12,7 +12,7 @@ body {
     justify-content: center; /* Centrado vertical */
     align-items: center; /* Centrado horizontal */
     padding: 50px;
-    background-image: url('/imagen/amor3.jpg'); /* Cambia la ruta a tu imagen de corazones */
+    background-image: url('imagen/amor3.jpg'); /* Cambia la ruta a tu imagen de corazones */
     background-size: cover; /* Ajusta la imagen para que ocupe toda la pantalla */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     opacity: 0.8; /* Hacer la imagen un poco transparente */
