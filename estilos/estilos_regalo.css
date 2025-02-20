@@ -14,7 +14,8 @@ body {
     position: relative; /* Posición relativa para el fondo */
     padding: 50px;
     width: 100%; /* Asegúrate de que el contenedor ocupe todo el ancho */
-    height: 100%; /* Asegúrate de que el contenedor ocupe toda la altura */
+    height: 100vh; /* Asegúrate de que el contenedor ocupe toda la altura de la ventana */
+    overflow: hidden; /* Evitar que el contenido se desborde */
 }
 
 .imagen-fondo {
@@ -49,4 +50,3 @@ button {
 button:hover {
     background-color: #d63384; /* Color más oscuro para el botón al pasar el mouse */
 }
-
