@@ -1,0 +1,51 @@
+body {
+  background-color: #d5f5d5; /* Fondo verde clarito */
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex; /* Usar Flexbox */
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  height: 100vh; /* Altura completa de la ventana */
+}
+
+.container {
+  text-align: center; /* Centrar el texto dentro de la container */
+}
+
+.cards {
+  display: flex;
+  justify-content: center; /* Centra las cartas */
+  flex-wrap: wrap; /* Permite que las cartas se muevan a la siguiente línea si no hay espacio */
+  gap: 20px; /* Espacio entre las cartas */
+}
+
+.card {
+  margin: 10px; /* Espacio entre las cartas */
+}
+
+.card img {
+  width: 150px; /* Ancho de las imágenes de las cartas */
+  height: auto; /* Mantiene la proporción de las imágenes */
+  border-radius: 10px; /* Bordes redondeados para las imágenes */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra para dar un efecto de profundidad */
+}
+
+.text {
+  margin: 20px 0; /* Espacio arriba y abajo del texto */
+  font-size: 1.5em; /* Tamaño de fuente para el texto */
+  color: #333; /* Color del texto */
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Color verde del botón */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049; /* Efecto hover para el botón */
+}

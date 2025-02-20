@@ -1,0 +1,10 @@
+button {
+    margin-top: 20px; /* Espacio entre el texto y el botón */
+    padding: 10px 20px; /* Espaciado dentro del botón */
+    font-size: 18px; /* Tamaño de fuente del botón */
+    color: white; /* Color del texto del botón */
+    background-color: #96b6a4; /* Color de fondo del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
