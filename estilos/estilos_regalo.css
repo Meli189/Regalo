@@ -2,45 +2,45 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     background-color: #ffe6e6;
-    height: 100vh;
-    margin: 0;
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    margin: 0; /* Eliminar márgenes por defecto */
 }
 
 .pantalla {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display: flex; /* Habilitar flexbox */
+    flex-direction: column; /* Alinear los elementos en columna */
+    justify-content: center; /* Centrado vertical */
+    align-items: center; /* Centrado horizontal */
     padding: 50px;
-    position: relative;
-    width: 100%;
-    height: 100vh;
-}
-
-.imagen-fondo {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 0.8;
-    z-index: -1;
+    background-image: url('/imagen/amor4.jpg'); /* Cambia la ruta a tu imagen de corazones */
+    background-size: cover; /* Ajusta la imagen para que ocupe toda la pantalla */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    opacity: 0.8; /* Hacer la imagen un poco transparente */
+    border-radius: 15px; /* Bordes redondeados */
+    width: 100%; /* Asegúrate de que el contenedor ocupe todo el ancho */
+    height: 100%; /* Asegúrate de que el contenedor ocupe toda la altura */
 }
 
 .pantalla h1 {
-    color: #d63384;
-    font-size: 3em;
+    color: #d63384; /* Color rosado vivo */
+    font-size: 3em; /* Aumentar el tamaño de la fuente */
 }
 
 button {
-    padding: 15px 30px;
-    font-size: 1.5em;
-    background-color: #ff4081;
+    padding: 15px 30px; /* Aumentar el tamaño del botón */
+    font-size: 1.5em; /* Aumentar el tamaño de la fuente del botón */
+    background-color: #ff4081; /* Color rosado vivo para el botón */
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     margin-top: 20px;
 }
+
+button:hover {
+    background-color: #d63384; /* Color más oscuro para el botón al pasar el mouse */
+}
+
 
 button:hover {
     background-color: #d63384;
