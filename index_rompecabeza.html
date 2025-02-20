@@ -28,13 +28,21 @@
     </style>
     <script type="text/javascript">
         var temp;
+        var selected = null;
 
         function llevar(imagen) {
             temp = imagen.src;
+            selected = imagen;
         }
 
         function soltar(imagen) {
             imagen.src = temp;
+        if (selected) {
+                let tempSrc = imagen.src;
+                imagen.src = selected.src;
+                selected.src = tempSrc;
+                selected = null;
+            }
         }
 
         function allowDrop(event) {
